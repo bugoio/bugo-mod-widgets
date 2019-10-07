@@ -15,7 +15,6 @@
     aria-label="{{ $widget.title }}"
     class="widget {{ .template }}"
     {{ if $widget.background_image.image }} style="background-image: url({{ partial "utilities/image-url" (dict "page" .page "url" $widget.background_image.image "transform" "c_fill,w_1280,h_600") }});" {{ end }}>
-  {{ $path := printf "widgets/%s" .template }}
-  {{ partial $path (dict "page" $page "widget" . "site" $site ) }}
+  {{ partial .template (dict "page" $page "widget" . "site" $site ) }}
   </section>
 {{ end }}

@@ -3,6 +3,10 @@
  **/
 
 @import "bugo-widgets-vars";
+@debug "Loading Bugo Widgets Module SASS";
+@import "custom-variables";
+
+
 @import "bugo-widgets";
 @import "bugo-widget-categories";
 @import "bugo-widget-latest-posts";

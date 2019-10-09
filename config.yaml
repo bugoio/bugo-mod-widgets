@@ -1,0 +1,8 @@
+modules:
+  import:
+  - disable: false
+    ignoreConfig: false
+    path: github.com/bugoio/bugo-mod-widgets
+  - disable: false
+    ignoreConfig: false
+    path: github.com/bugoio/bugo-sass-utilities
